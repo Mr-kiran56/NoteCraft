@@ -231,12 +231,12 @@ html, body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 .login-back{
-  background-image: url('/workspaces/NoteCraft/src/components/images/login.jpeg');
+  /* background-image: url('/workspaces/NoteCraft/src/components/images/login.jpeg'); */
 color: white;
   height: 100vh;
 }
 .signup-back{
-  background-image: url('/workspaces/NoteCraft/src/components/images/signup.webp');
+  /* background-image: url('/workspaces/NoteCraft/src/components/images/signup.webp'); */
   height: 1000px;
 }
 .signup-form{
