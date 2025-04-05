@@ -55,7 +55,7 @@
 
 .image {
   /* background: linear-gradient(rgb(100, 221, 221),rgb(195, 65, 169)); */
-  background-image: url('B:\React-cr\inotebook\src\components\images\mountains-1412683_1280.jpeg');
+  background-image: url('/workspaces/NoteCraft/src/components/images/mountain.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -231,12 +231,12 @@ html, body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 .login-back{
-  background-image: url('B:\React-cr\inotebook\src\components\images\login.jpeg');
+  background-image: url('/workspaces/NoteCraft/src/components/images/login.jpeg');
 color: white;
   height: 100vh;
 }
 .signup-back{
-  background-image: url('B:\React-cr\inotebook\src\components\images\signup.webp');
+  background-image: url('/workspaces/NoteCraft/src/components/images/signup.webp');
   height: 1000px;
 }
 .signup-form{
