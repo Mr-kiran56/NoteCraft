@@ -17,18 +17,23 @@ mongoToConnect()
 const app = express();
 const port = process.env.PORT || 5000;
 
-// ✅ Allow multiple frontend origins
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"];
+// ✅ Updated: Allow multiple frontend origins
+const allowedOrigins = [
+  "http://localhost:3000",  // React default
+  "http://localhost:3001",  // Another React port
+  "http://localhost:5173",  // Vite default
+  "http://127.0.0.1:5173"   // Alternate localhost
+];
 
 app.use(cors({
-    origin: function (origin, callback) {
-        if (!origin || allowedOrigins.includes(origin)) {
-            callback(null, true);
-        } else {
-            callback(new Error("Not allowed by CORS"));
-        }
-    },
-    credentials: true
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
+  credentials: true
 }));
 
 app.use(express.json());
