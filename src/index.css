@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+i{
+  cursor: pointer;
+}
+/* .btn-primary {
+  background-color: #007bff; /* Default blue */
+  /* border: 2px solid #007bff; Border to maintain shape
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+} */
+
+/* .btn-primary:hover {
+  background-color: transparent; /* Makes the background transparent */
+  /* color: #007bff; Changes text color to match border */
+
+/* 
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+} */
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
