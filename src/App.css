@@ -55,7 +55,7 @@
 
 .image {
   /* background: linear-gradient(rgb(100, 221, 221),rgb(195, 65, 169)); */
-  background-image: url('/images/mountains-1412683_1280.webp');
+  /* background-image: url('/images/mountains-1412683_1280.webp'); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
